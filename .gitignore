@@ -4,3 +4,7 @@ dist
 .env
 .DS_Store
 .vscode
+backend/@cds-models
+backend/db.sqlite
+backend/db.sqlite-shm
+backend/db.sqlite-wal

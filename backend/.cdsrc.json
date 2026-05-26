@@ -1,0 +1,29 @@
+{
+  "requires": {
+    "db": {
+      "kind": "sqlite",
+      "credentials": {
+        "url": "db.sqlite"
+      }
+    },
+    "auth": {
+      "kind": "mocked",
+      "users": {
+        "vivi": {
+          "password": "vivi",
+          "roles": ["SpacefarerAdmin"]
+        },
+        "bob": {
+          "password": "bob",
+          "roles": ["SpacefarerUser"],
+          "attr": { "planet": "PLANET_X" }
+        },
+        "yoda": {
+          "password": "yoda",
+          "roles": ["SpacefarerUser"],
+          "attr": { "planet": "PLANET_Y" }
+        }
+      }
+    }
+  }
+}
